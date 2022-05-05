@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+
+body {
+  margin: 0;
+  padding-top: 150px;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  background-color: #1B365C;
+  width: 720;
+}
+
+.wrapper {
+  max-width: 50%;
+  min-width: 320px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+  background-color: #7EA1C4;
+}
+
+.heading {
+  position: relative;
+  font-size: 42px;
+  color: #7EA1C4;
+  text-transform: uppercase;
+  bottom: 130px;
+}
+
+.timer {
+  display: flex;
+  align-items: center;
+  color: #1B365C;
+  width: 320px;
+  justify-content: space-around;
+}
+
+.minutes,
+.seconds,
+.milliseconds {
+  font-family: 'Orbitron', Arial, Helvetica, sans-serif;
+  font-size: 48px;
+  color:#1B365C;
+  width: 80px;
+}
+
+.buttons {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  gap: 5%;
+}
+
+.btn {
+  margin-top: 50px;
+  border: 1px solid #1B365C;
+  min-width: 30%;
+  height: 60px;
+  background-color: #7EA1C4;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  color: #1B365C;
+}
+
+.btn:hover {
+  background-color: #1B365C;
+  color: #7EA1C4;
+}
